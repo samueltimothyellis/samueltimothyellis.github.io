@@ -1,0 +1,212 @@
+/* ===================
+ *
+ * Custom Added Styles
+ *
+ * =================== */
+
+/* ORGANIZATION */
+
+.centered {
+ 	text-align: center;
+}
+
+.bar {
+  height: 3px;
+  width: 30%;
+  margin: auto;
+  background-color: #881600;
+  margin-bottom: 30px;
+}
+
+.title-block {
+  margin-top: 50px;
+}
+
+/* ==============
+ * COLOR CHANGING
+ * ============== */
+
+/*
+  Color Scheme:
+  	Dark Red/Brown:	#49010F
+	  Shaded Red:		  #881600
+	  Orange:			    #C16200
+	  Yellow:			    #E3E36A
+*/
+
+.navbar-color-on-scroll {
+ 	background-color: #49010F;
+}
+
+.pull-left a:hover {
+  color: #49010F;
+}
+
+/* HEADER */
+
+.description {
+  color: #333;
+  font-size: 1.4em;
+  letter-spacing: .1em;
+  line-height: 1.6em;
+}
+
+.resume-link {
+  margin-top: 20px;
+}
+
+.resume-link > a {
+  font-weight: bold;
+  color: #49010F;
+  text-decoration: none;
+}
+
+.resume-link > a:hover {
+  border-bottom: 3px solid #49010F;
+}
+
+
+/* PROJECTS */
+
+.projects {
+  margin-top: 10px;
+}
+
+.projects img {
+  max-width: 100%;
+  border-bottom: 5px solid #fff;
+  transition: border-bottom .4s;
+}
+
+.projects img:hover {
+  border-bottom: 5px solid #C16200;
+}
+
+/* EXPERIENCE */
+
+.job-block {
+  margin-bottom: 30px;
+}
+
+.job-company {
+  font-size: 2em;
+  font-weight: bold;
+  letter-spacing: .2em;
+  color: #881600;
+}
+
+.job-role {
+  font-size: 1.4em;
+  letter-spacing: .1em;
+  color: #49010F;
+  margin-top: -10px;
+}
+
+.job-desc {
+  font-size: 1.2em;
+  line-height: 1.5em;
+  padding-left: 10px;
+  margin-left: 5px;
+  border-left: 2px solid #49010F;
+}
+
+.job-date, .job-location {
+  display: none;
+}
+
+@media (min-width: 992px) {
+
+  .job-date {
+    display: block;
+    text-align: right;
+    margin-top: 20px;
+
+  }
+
+  .job-location {
+    display: block;
+    text-align: right;
+    margin-top: -10px;
+
+  }
+}
+
+
+/* SKILLS */
+
+.skills-row {
+  margin-bottom: 20px;
+}
+
+.skills-list {
+  text-align: center;
+}
+
+.skills-list > ul {
+  list-style: none;
+}
+
+.skills-list li {
+  font-size: 1.2em;
+  letter-spacing: .1em;
+  color: #333;
+  padding: 8px 0 8px 0;
+}
+
+.skills-list li:first-child {
+  font-size: 1.6em;
+  font-weight: bold;
+  letter-spacing: .2em;
+  color: #49010F;
+}
+
+/* CONTACT */
+
+.contact-row {
+  display: none;
+}
+
+@media (min-width: 992px) {
+
+  .contact-row {
+    display: block;
+    background-color: #333;
+    min-height: 300px;
+    margin-top: 50px;
+    color: #fff;
+  }
+
+  .contact-row h2 {
+    margin-top: 80px;
+    font-size: 2em;
+    letter-spacing: .2em;
+  }
+
+  .contact-row p {
+    font-size: 1.5em;
+    letter-spacing: .1em;
+    margin-top: 25px;
+  }
+
+  .contact-row a {
+    color: #fff;
+  }
+
+  .contact-gap {
+    margin-right: 20px;
+  }
+}
+
+
+/* FOOTER */
+
+.copyright > a {
+  text-decoration: none;
+  color: #881600;
+  letter-spacing: .1em;
+}
+
+.copyright > a:hover {
+  border-bottom: 2px solid #881600;
+}
+
